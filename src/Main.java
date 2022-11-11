@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // Task 1
-        int now_a_Year = 2022;
-        int twoHundredYearsBeforeThisYear = now_a_Year - 200;
-        int afterTheHundredthYearOfTheCurrentYear = now_a_Year + 100;
+        int nowYear = 2022;
+        int twoHundredYearsBeforeThisYear = nowYear - 200;
+        int afterTheHundredthYearOfTheCurrentYear = nowYear + 100;
         for (int i = 0; i <= afterTheHundredthYearOfTheCurrentYear; i += 79) {
             if (i >= twoHundredYearsBeforeThisYear)
                 System.out.println(i);
